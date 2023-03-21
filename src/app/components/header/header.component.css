@@ -1,0 +1,150 @@
+:host.XSmall .menu-bar{
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+
+:host.XSmall .menu-bar ul{
+  display: block;
+  width: 100%;
+  margin:-30px auto;
+  padding: auto;
+}
+
+:host.XSmall .menu-bar ul li{
+  display: block;
+  width: 50%;
+  padding: auto;
+  margin:5px auto;
+}
+
+:host.XSmall .toggle-button::after{
+  height: 0;
+}
+
+:host.small .toggle-button::after{
+  height: 0;
+}
+
+:host.XSmall span img{
+  width: 60px;
+  height: 40px;
+}
+
+:host.XSmall .download-cv-div{
+  margin-top:-100px;
+}
+
+:host.small .download-cv-div{
+  margin-top: -100px;
+}
+
+:host.small .menu-bar{
+  width: 100%;
+  margin:20px auto;
+  padding: auto;
+}
+
+:host.small .menu-bar ul{
+  display: block;
+  width: 100%;
+  margin:-10px auto;
+  padding: auto;
+}
+
+:host.small .menu-bar ul li{
+  display: block;
+  width: 60%;
+  padding: auto;
+  margin: auto;
+}
+
+span img{
+  width: 200px;
+  height: 120px;
+  margin-top: 30px;
+}
+
+.menu-bar{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.menu-bar ul{
+    display: flex;
+    width: 400px;
+    margin:60px auto;
+}
+
+.menu-bar ul li{
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: -30px 20px 0 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.menu-bar ul li a:hover{
+    color: var(--green-light);
+    cursor: pointer;
+}
+
+.download-cv-div{
+  margin-top: 25px;
+  text-align: right;
+}
+
+.download-cv-div a{
+  text-decoration: none;
+  color:gray;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--green);
+}
+
+.download-cv-div a:hover{
+  color: black;
+}
+
+.toggle-button {
+    padding: 0;
+    margin: 0 20px;
+    border: none;
+    background: none;
+  }
+  
+  .toggle-button {
+    --primary-color: white;
+    --hovered-color: rgb(205, 197, 197);
+    position: relative;
+    display: flex;
+    font-weight: 400;
+    font-size: 1em;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  
+  .toggle-button::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+
+ .toggle-button:hover::after {
+    width: 100%;
+  }
+  
+    

@@ -1,0 +1,102 @@
+:host.XSmall .main{
+ height: 65vh;
+ width: 100%;
+ margin: auto;
+ padding: auto;
+}
+
+:host.XSmall .picsum-img-wrapper img{
+  width: 30%;
+  margin: auto;
+  padding: auto;
+}
+
+ :host.XSmall .picsum-img-wrapper{
+ width: 80%;
+ margin: auto;
+ padding: auto;
+}
+
+ 
+
+:host.XSmall .slide-caption{
+    width: 80%;
+    margin:20px auto 60px auto;
+    padding: auto;
+}
+
+:host.XSmall .inside-slider{
+    height: 45vh;
+    margin: auto;
+    padding: auto;
+}
+
+:host.small .main{
+    height: 65vh;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+   }
+   
+   :host.small .picsum-img-wrapper img{
+     width: 30%;
+     margin: auto;
+     padding: auto;
+   }
+   
+    :host.small .picsum-img-wrapper{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+   }
+   
+   :host.small .slide-caption{
+       width: 80%;
+       margin:20px auto 60px auto;
+       padding: auto;
+   }
+   
+   :host.small .inside-slider{
+       height: 45vh;
+       margin: auto;
+       padding: auto;
+   }
+   
+
+
+
+.main{
+    text-align: center;
+    height: 90vh;
+    background: var(--dark-gray);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.picsum-img-wrapper img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.slide-caption{
+    width: 500px;
+    margin:60px auto;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.slide-caption h3 p{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.inside-slider{
+    height: 60vh;
+    margin: auto;
+    padding: auto;
+}

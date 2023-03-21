@@ -1,0 +1,99 @@
+:host.XSmall footer{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+:host.XSmall .contact-details{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+:host.XSmall .contact-details .contact-number{
+    margin: auto;
+    padding: auto;
+    width: 90%;
+}
+
+:host.XSmall .contact-details .email{
+    width: 100%;
+    font-size: 1rem;
+    padding: auto;
+    margin: auto;
+}
+
+:host.XSmall .footer-image img{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+:host.small footer{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+:host.small .contact-details{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+:host.small .contact-details .contact-number{
+    margin: auto;
+    padding: auto;
+    width: 90%;
+}
+
+:host.small .contact-details .email{
+    width: 100%;
+    font-size: 1rem;
+    padding: auto;
+    margin: auto;
+}
+
+:host.small .footer-image img{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.row{
+text-align: center;
+}
+
+.contact-heading{
+    border: 1px solid black;
+    width: 80%;
+    margin: 50px auto;
+    color: var(--dark-gray);
+}
+
+.footer-image{
+    text-align: center;
+}
+
+.social i{
+    margin:30px 30px 30px 30px;
+    font-size: 1.5rem;
+    background-color: var(--dark-gray);
+    padding: 12px;
+    border-radius: 8px;
+    color :white;
+}
+
+.contact-details .contact-number{
+   margin-left: -230px;
+}
+
+.footer-content{
+ margin-top: 70px;
+ margin-bottom: 50px;
+}
+
+.footer-heading h1{
+ color: var(--dark-gray);
+ margin-top: 30px;
+}
